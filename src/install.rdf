@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- $Id: $ -->
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{770d4d1a-a959-4353-95af-0e7a483bb4a0}</em:id>
+    <em:version>1.0.5</em:version>
+    <em:type>2</em:type>
+
+    <!-- Target Application this extension can install into,
+        with minimum and maximum supported versions. --> 
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>3.5.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- Front End MetaData -->
+    <em:name>Mozilla Handle/DOI Protocol Handler</em:name>
+    <em:description>Allows Firefox to resolve CNRI handles or DOIs by redirecting URIs with schemes of hdl: or doi: to their respective HTTP Proxies.</em:description>
+    <em:creator>Mark Donoghue</em:creator>
+    <em:homepageURL>http://thirdstation.com/code/firefox/</em:homepageURL>
+ </Description>
+</RDF>
